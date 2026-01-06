@@ -49,7 +49,7 @@ export function About() {
                 alt="Team meeting discussing plumbing solutions"
               />
               <img
-                src="https://images.unsplash.com/photo-1621905476059-5f80280cdd55?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=1000&auto=format&fit=crop"
                 className="w-full h-52 lg:h-64 object-cover rounded-2xl shadow-lg mb-8"
                 alt="Professional plumber working"
               />
