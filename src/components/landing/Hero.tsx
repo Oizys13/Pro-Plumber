@@ -65,7 +65,7 @@ export function Hero() {
         {/* Right Image Area */}
         <div className="relative flex justify-center lg:justify-end animate-enter delay-200">
           {/* Yellow Circle Blob */}
-          <div className="absolute top-10 right-10 w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px] bg-accent rounded-full z-0" />
+          <div className="absolute top-10 right-10 w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px] bg-accent rounded-full z-0" style={{ clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)" }} />
 
           {/* Plumber Image */}
           <div className="relative z-10 w-[250px] sm:w-[300px] lg:w-[400px]">
