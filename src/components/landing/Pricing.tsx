@@ -69,9 +69,8 @@ export function Pricing() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-card rounded-2xl p-6 lg:p-8 animate-enter ${
-                plan.popular ? "ring-2 ring-accent scale-105 shadow-2xl" : "shadow-xl"
-              }`}
+              className={`relative bg-card rounded-2xl p-6 lg:p-8 animate-enter flex flex-col ${plan.popular ? "ring-2 ring-accent scale-105 shadow-2xl" : "shadow-xl"
+                }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {plan.popular && (
@@ -102,11 +101,10 @@ export function Pricing() {
               </ul>
 
               <Button
-                className={`w-full rounded-full py-6 font-semibold group ${
-                  plan.popular
-                    ? "bg-accent text-accent-foreground hover:bg-accent/90"
-                    : "bg-primary text-primary-foreground hover:bg-primary/90"
-                }`}
+                className={`w-full rounded-full py-6 font-semibold group mt-auto ${plan.popular
+                  ? "bg-accent text-accent-foreground hover:bg-accent/90"
+                  : "bg-primary text-primary-foreground hover:bg-primary/90"
+                  }`}
                 asChild
               >
                 <a href="#contact" className="flex items-center justify-center gap-2">
